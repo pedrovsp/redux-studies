@@ -1,0 +1,23 @@
+.Card {
+    flex: 1;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    border: #a931fe 1px solid;
+    border-radius: 8px;
+    overflow: hidden;
+
+    .Header {
+        display: flex;
+        justify-content: center;
+        color: #f0f0f0;
+        background-color: #1f0431;
+        flex: 1;
+        padding: 10px;
+    }
+
+    .Content {
+        padding: 15px;
+    }
+}
