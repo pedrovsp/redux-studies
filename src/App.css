@@ -9,6 +9,7 @@ h1 {
     font-weight: 200;
 }
 
-.line {
+.App .line {
+    display: flex;
     flex-direction: row;
 }
