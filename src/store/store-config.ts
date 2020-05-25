@@ -1,12 +1,12 @@
 import { createStore, combineReducers } from 'redux';
+import { Numbers, numbers } from '../store/reducers/numbers';
+
+export interface RootState {
+    numbers: Numbers
+}
 
 const reducers = combineReducers({
-    numbers: (state, action) => {
-        return {
-            min: 1,
-            max: 10
-        }
-    }
+    numbers: numbers
 });
 
 export const storeConfig = () => {
