@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { Interval } from './components/interval/Interval';
+import Range from './components/interval/Interval';
 import Average from './components/average/Average';
 import Random from './components/random/Random';
 import Sum from './components/sum/Sum';
@@ -10,7 +10,7 @@ function App() {
         <div className="App">
             <h1>Redux Exercise</h1>
             <div>
-                <Interval></Interval>
+                <Range></Range>
             </div>
             <div className="line">
                 <Average></Average>
